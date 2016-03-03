@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/lokisneha/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/lokisneha/Documents/277/HW/HW4_DataStorage/mycode/AndroidDataStorage/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-a5d4cb96203b50f8cc8ba610b814497cbac04256.jar" />
+    </item>
+
+</items>

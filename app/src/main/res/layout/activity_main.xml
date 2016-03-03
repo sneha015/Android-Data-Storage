@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button android:id="@+id/open_preferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open_preferences"
+        android:onClick="openPreference"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/open_sqlite"
+        />
+    
+    <Button android:id="@id/open_sqlite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/open_sqlite"
+        android:layout_alignParentRight="true"
+        android:onClick="saveInDatabase"
+        />
+   
+    
+    <TextView android:id="@+id/saved_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:layout_below="@id/open_sqlite"
+        android:layout_centerInParent="true"
+         />
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:text="@string/btn_close" 
+        android:onClick="exitApp"/>
+
+</RelativeLayout>
